@@ -1,0 +1,225 @@
+body {
+  /* padding-top: 39px;
+  padding-left: 166px;
+  padding-right: 166px;*/
+  font-style: normal;
+  background-color: #f0f1ff;
+  font-family: "Outfit", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  /*background-color: #f0f1ff;*/
+}
+article {
+  background-color: #f0f1ff;
+  padding-top: 39px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+section p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869a;
+}
+nav p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 29px;
+  color: #83869a;
+  margin-right: 32px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+header p {
+  line-height: 27.68px;
+  font-weight: bold;
+  font-size: 31px;
+  font-weight: 800;
+}
+nav button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  background-color: white;
+  margin-top: 24px;
+}
+.header-getstarted {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  background-color: #13183f;
+  padding: 14px 32px 14px 32px;
+  border-radius: 31px;
+}
+.header-getstarted:hover {
+  background: #666ca3;
+}
+.main-title {
+  width: 457px;
+  height: 359px;
+  margin-bottom: 170px;
+  /* position: relative;*/
+}
+.maximize-container {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 70px;
+  height: 143px;
+}
+section p {
+  width: 445px;
+  height: 84px;
+  padding-right: 15px;
+  margin-top: 31px;
+}
+.start {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: white;
+  padding: 14px 32px 14px 32px;
+  border-radius: 31px;
+  margin-top: 50px;
+}
+.start:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+.main-image {
+  width: 800px;
+  transform: translate(53rem, -95ex);
+  /*position: absolute;
+  bottom: -15px;
+  left: 760px;*/
+  transform: translate(53rem, -95ex);
+  /*position: relative;
+  bottom: 48rem;
+  left: 50rem;*/
+}
+.navigation {
+  display: grid;
+  grid-template-columns: 347px 347px 347px;
+  gap: 55px;
+}
+.navigation1 {
+  width: 347px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: white;
+  padding-top: 64px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  box-shadow: 0px 25px 50px rgb(6 22 141 / 15%);
+}
+nav h1 {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+.visual {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 347px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: white;
+
+  padding-left: 32px;
+  padding-bottom: 75px;
+  box-shadow: 0px 25px 50px rgb(6 22 141 / 15%);
+}
+.visual1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 37px;
+  color: white;
+}
+footer {
+  /*display: flex;
+  align-items: center;*/
+  background-color: #13183f;
+  height: 7rem;
+  margin-top: 60px;
+  position: absolute;
+  width: 100%;
+}
+.footer-skilled {
+  line-height: 27.68px;
+  font-weight: bold;
+  font-size: 31px;
+  color: white;
+  font-weight: 800;
+}
+.footer-getstarted {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  padding: 14px 32px;
+  border-radius: 31px;
+}
+.footer-getstarted:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+.footer-section {
+  margin-bottom: 60px;
+}
+nav h2 {
+  padding-right: 32px;
+}
+.image01 {
+  position: relative;
+  bottom: 240px;
+  right: 90px;
+}
+.image02 {
+  position: relative;
+  bottom: 240px;
+  right: 90px;
+}
+.image03 {
+  position: relative;
+  bottom: 240px;
+  right: 90px;
+}
+.image04 {
+  position: relative;
+  bottom: 240px;
+  right: 90px;
+}
+.image05 {
+  position: relative;
+  bottom: 240px;
+  right: 90px;
+}
+nav button:hover {
+  color: #ffa7c3;
+}
